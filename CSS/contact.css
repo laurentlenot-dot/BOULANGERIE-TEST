@@ -1,0 +1,94 @@
+body{
+   
+    margin:5px;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    background-color: #e9cab7;
+    
+}
+
+
+h1{
+    text-align: center;
+    font-size: 36px;
+    color: #5c3d2e;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+
+.menu {
+    border: 2px solid #5c3d2e;
+    align-items: justify;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    margin: 23px;
+    place-content: 10px;
+    border-radius: 7px;
+}
+
+
+li {
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+
+a:hover{
+    color: #5c3d2e;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: #5c3d2e;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+
+
+button:hover {
+  background-color: #a17159;
+}
+
+
+
+fieldset {
+    border: 2px solid #5c3d2e;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    grid-template-columns: 1fr 2fr;
+}
+
+form {
+  display: relative;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.message {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    margin: 10px 0;
+    right: 10px;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
